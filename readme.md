@@ -15,8 +15,8 @@ This tutorial is created to illustrate the basic CRUD (Create , Read, Update, De
 
 - docker build -t laravel-app .
 - docker run -p 8181:8181 laravel-app
-- To tag docker tag laravel-app ukanabar/laravel-student-app:1.0
-- To push to docker hub docker push ukanabar/laravel-student-app:tagname
+- To tag docker tag laravel-app <username>/laravel-student-app:1.0
+- To push to docker hub docker push <username>/laravel-student-app:tagname
 
 <b>Free DB</b>
 - One can create free DB at https://www.db4free.net/
